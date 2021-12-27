@@ -1,0 +1,43 @@
+# Created at 2021-12-27T16:00:45.482
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: null
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+
+# Created at 2021-12-27T16:00:45.550
+Unexpected IOException with stream: 2021-12-27 16:00:45.550  INFO 322026 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+
+
+# Created at 2021-12-27T16:00:45.633
+Unexpected IOException with stream: 2021-12-27 16:00:45.633  WARN 322026 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+
+
+# Created at 2021-12-27T16:00:47.106
+Unexpected IOException with stream: 2021-12-27 16:00:47.105  INFO 322026 --- [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@73eae5f, org.springframework.security.web.context.SecurityContextPersistenceFilter@45635ae1, org.springframework.security.web.header.HeaderWriterFilter@3d3a28b5, org.springframework.web.filter.CorsFilter@4902c584, org.springframework.security.web.authentication.logout.LogoutFilter@56554365, com.sha.springbootdeviceseller.security.jwt.JwtAuthorizationFilter@5810772a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@66abc325, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4abdd5e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7698a3d9, org.springframework.security.web.session.SessionManagementFilter@13809363, org.springframework.security.web.access.ExceptionTranslationFilter@5bf4dfb, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2552181d]
+
+
+# Created at 2021-12-27T16:00:47.517
+Unexpected IOException with stream: 2021-12-27 16:00:47.517  INFO 322026 --- [           main] s.SpringBootDeviceSellerApplicationTests : Started SpringBootDeviceSellerApplicationTests in 4.113 seconds (JVM running for 4.958)
+
+
+# Created at 2021-12-27T16:00:47.521
+Unexpected IOException with stream: 2021-12-27 16:00:47.521  INFO 322026 --- [           main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+
+
+# Created at 2021-12-27T16:00:47.523
+Unexpected IOException with stream: 2021-12-27 16:00:47.522  INFO 322026 --- [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+
+
+# Created at 2021-12-27T16:00:47.529
+Unexpected IOException with stream: 2021-12-27 16:00:47.527  INFO 322026 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+
+
+# Created at 2021-12-27T16:00:47.547
+Unexpected IOException with stream: 2021-12-27 16:00:47.545  INFO 322026 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+
+
