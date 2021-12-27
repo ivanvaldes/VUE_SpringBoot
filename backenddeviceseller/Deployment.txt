@@ -1,1 +1,10 @@
+Deploy database
 docker run --name postgres -e POSTGRES_PASSWORD=postgres -d postgres
+
+Postgres admin page:
+http://127.0.0.1/pgadmin4/browser/
+spring.datasource.username=postgres
+spring.datasource.password=postgres
+
+LLave de git:
+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

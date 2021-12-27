@@ -1,10 +1,10 @@
-package com.ivanvaldes.backenddeviceseller;
+package com.sha.springbootdeviceseller;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class BackendDeviceSellerApplicationTests {
+class SpringBootDeviceSellerApplicationTests {
 
 	@Test
 	void contextLoads() {

@@ -1,13 +1,14 @@
-package com.ivanvaldes.backenddeviceseller;
+package com.sha.springbootdeviceseller;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.PropertySource;
 
 @SpringBootApplication
-public class BackendDeviceSellerApplication {
+@PropertySource("classpath:application-${spring.profiles.active:default}.properties")
+public class SpringBootDeviceSellerApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(BackendDeviceSellerApplication.class, args);
+		SpringApplication.run(SpringBootDeviceSellerApplication.class, args);
 	}
-
 }
